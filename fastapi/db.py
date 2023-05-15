@@ -6,5 +6,5 @@ redis: Optional[aioredis.Redis] = None
 
 
 async def get_redis() -> Optional[aioredis.Redis]:
-    """Функция провайдер для FilmService"""
+    """Функция провайдер для DataService"""
     return redis
